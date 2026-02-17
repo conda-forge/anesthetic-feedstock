@@ -1,5 +1,5 @@
 {% set name = "anesthetic" %}
-{% set version = "2.11.6" %}
+{% set version = "2.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anesthetic-{{ version }}.tar.gz
-  sha256: ec4f6af88f49da2a642eb197fed7df28fb786331b26172c868a1564ed88599ef
+  sha256: 3a70aa5febe452c4c86a5bd2c791d6f018a1a537bf5fa169a532417d47dcbb34
 
 build:
   entry_points:
