@@ -1,5 +1,5 @@
 {% set name = "anesthetic" %}
-{% set version = "2.15.2" %}
+{% set version = "2.15.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/anesthetic-{{ version }}.tar.gz
-  sha256: cfc88f22ae6bbcc4858605dabc57642b21c4c7eb23db77ebccb03e7c767f5a7c
+  sha256: d05cc90296d3b14340d4eb2e3a49d3614b2953638d3133182bbb44f35c3c4eef
 
 build:
   entry_points:
